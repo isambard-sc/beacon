@@ -110,7 +110,7 @@ jobs:
           UPX_HASH: "1ff660454227861e00772f743f66b900072116b9dc24f6ee28b97cce88a7828a"
         if: ${{ matrix.compress-binary }}
       - name: Store build artefacts
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           path: ${{ matrix.asset-name }}
           archive: false
