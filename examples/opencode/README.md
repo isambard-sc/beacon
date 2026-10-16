@@ -28,4 +28,4 @@ ISAMBARD_TOKEN=$(beacon token) opencode
 
 Then pick the model under **Isambard** with `/models`.
 
-opencode reads the token only at startup. When it expires, run `beacon auth` and restart opencode.
+opencode reads the token only at startup. When it expires, run `beacon auth` and restart opencode. If you get `HTTP 401: {}`, the token is missing or expired. Check that `ISAMBARD_TOKEN` is exported, and quit any background opencode server so it picks up the new token.
