@@ -1,0 +1,18 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "isambard": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Isambard",
+      "options": {
+        "baseURL": "https://apps.isambard.ac.uk/k8s-gateway/<project>/<service>/v1",
+        "apiKey": "{env:ISAMBARD_TOKEN}"
+      },
+      "models": {
+        "<model-id>": {
+          "name": "<model-name>"
+        }
+      }
+    }
+  }
+}
