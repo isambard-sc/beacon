@@ -93,6 +93,7 @@ fn main() -> Result<()> {
                 "preferred_username",
                 "short_name",
                 "groups",
+                "selected_group",
             ] {
                 let value = match &claims[name] {
                     serde_json::Value::Null => "<missing>".to_string(),
