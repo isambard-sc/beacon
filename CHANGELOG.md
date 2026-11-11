@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [0.1.1] - 2026-11-11
+
 ### Changed
 
 - `beacon whoami` shows the `selected_group` claim.
@@ -19,4 +21,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - `beacon whoami` shows the token's claims, and `beacon logout` deletes the cached token.
 - An example `examples/opencode/opencode.json` for using a gateway-hosted model with opencode.
 
+[0.1.1]: https://github.com/isambard-sc/beacon/releases/tag/0.1.1
 [0.1.0]: https://github.com/isambard-sc/beacon/releases/tag/0.1.0
